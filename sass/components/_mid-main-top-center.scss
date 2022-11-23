@@ -1,0 +1,53 @@
+.lorem-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 95px 0 95px 0;
+  padding: 0;
+  &__position {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 0;
+    margin: 0 auto;
+  }
+  &__card {
+    width: 270px;
+    height: 120px;
+    background-color: var(--fourthary-color);
+    text-align: center;
+    padding: 25px 100px 25px 100px;
+    border-radius: 4px;
+  }
+  &__icon {
+    display: flex;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+  }
+  &__heading {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--sixthary-color);
+  }
+  &__description {
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  &__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--fifthary-color);
+  }
+}
